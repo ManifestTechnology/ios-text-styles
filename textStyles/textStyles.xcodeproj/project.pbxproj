@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB136D1E190EF9090046BD81 /* TextTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = CB136D1D190EF9090046BD81 /* TextTheme.m */; };
+		CB304F671909AD980081F719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB304F661909AD980081F719 /* Foundation.framework */; };
+		CB304F691909AD980081F719 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB304F681909AD980081F719 /* CoreGraphics.framework */; };
+		CB304F6B1909AD980081F719 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB304F6A1909AD980081F719 /* UIKit.framework */; };
+		CB304F711909AD980081F719 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB304F6F1909AD980081F719 /* InfoPlist.strings */; };
+		CB304F731909AD980081F719 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB304F721909AD980081F719 /* main.m */; };
+		CB304F771909AD980081F719 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB304F761909AD980081F719 /* AppDelegate.m */; };
+		CB304F801909AD990081F719 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB304F7F1909AD990081F719 /* MainViewController.m */; };
+		CB304F821909AD990081F719 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB304F811909AD990081F719 /* Images.xcassets */; };
+		CB304F891909AD990081F719 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB304F881909AD990081F719 /* XCTest.framework */; };
+		CB304F8A1909AD990081F719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB304F661909AD980081F719 /* Foundation.framework */; };
+		CB304F8B1909AD990081F719 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB304F6A1909AD980081F719 /* UIKit.framework */; };
+		CB304F931909AD990081F719 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB304F911909AD990081F719 /* InfoPlist.strings */; };
+		CB304F951909AD990081F719 /* textStylesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB304F941909AD990081F719 /* textStylesTests.m */; };
+		CB5A33761911653500C3F968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB304F781909AD990081F719 /* Main.storyboard */; };
+		CB6744C819181D58003D0B4F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6744C419181D58003D0B4F /* Default-568h@2x.png */; };
+		CB6744C919181D58003D0B4F /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6744C519181D58003D0B4F /* Default-Landscape@2x~ipad.png */; };
+		CB6744CA19181D58003D0B4F /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6744C619181D58003D0B4F /* Default-Landscape~ipad.png */; };
+		CB6744CB19181D58003D0B4F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6744C719181D58003D0B4F /* Default@2x.png */; };
+		CBDC51B4191038CC00C445B9 /* Arvo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBDC519A191038CC00C445B9 /* Arvo-Regular.ttf */; };
+		CBDC51B5191038CC00C445B9 /* OFL_Arvo.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBDC519B191038CC00C445B9 /* OFL_Arvo.txt */; };
+		CBDC51B6191038CC00C445B9 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBDC519D191038CC00C445B9 /* Montserrat-Bold.ttf */; };
+		CBDC51B8191038CC00C445B9 /* OFL_Montserrat.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBDC519F191038CC00C445B9 /* OFL_Montserrat.txt */; };
+		CBDC51B9191038CC00C445B9 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBDC51A1191038CC00C445B9 /* Nunito-Bold.ttf */; };
+		CBDC51BC191038CC00C445B9 /* OFL_Nunito.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBDC51A4191038CC00C445B9 /* OFL_Nunito.txt */; };
+		CBDC51BD191038CC00C445B9 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBDC51A6191038CC00C445B9 /* LICENSE.txt */; };
+		CBDC51C0191038CC00C445B9 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBDC51A9191038CC00C445B9 /* RobotoCondensed-Italic.ttf */; };
+		CBDC51C919103A2B00C445B9 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDC51C819103A2B00C445B9 /* Utils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB304F8C1909AD990081F719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB304F5B1909AD980081F719 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB304F621909AD980081F719;
+			remoteInfo = textStyles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB136D1C190EF9090046BD81 /* TextTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTheme.h; sourceTree = "<group>"; };
+		CB136D1D190EF9090046BD81 /* TextTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextTheme.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CB304F631909AD980081F719 /* textStyles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textStyles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB304F661909AD980081F719 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB304F681909AD980081F719 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB304F6A1909AD980081F719 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB304F6E1909AD980081F719 /* textStyles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "textStyles-Info.plist"; sourceTree = "<group>"; };
+		CB304F701909AD980081F719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB304F721909AD980081F719 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB304F741909AD980081F719 /* textStyles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "textStyles-Prefix.pch"; sourceTree = "<group>"; };
+		CB304F751909AD980081F719 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB304F761909AD980081F719 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB304F791909AD990081F719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB304F7E1909AD990081F719 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CB304F7F1909AD990081F719 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CB304F811909AD990081F719 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB304F871909AD990081F719 /* textStylesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textStylesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB304F881909AD990081F719 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB304F901909AD990081F719 /* textStylesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "textStylesTests-Info.plist"; sourceTree = "<group>"; };
+		CB304F921909AD990081F719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB304F941909AD990081F719 /* textStylesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textStylesTests.m; sourceTree = "<group>"; };
+		CB6744C419181D58003D0B4F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CB6744C519181D58003D0B4F /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		CB6744C619181D58003D0B4F /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		CB6744C719181D58003D0B4F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CBDC519A191038CC00C445B9 /* Arvo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Regular.ttf"; sourceTree = "<group>"; };
+		CBDC519B191038CC00C445B9 /* OFL_Arvo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL_Arvo.txt; sourceTree = "<group>"; };
+		CBDC519D191038CC00C445B9 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		CBDC519F191038CC00C445B9 /* OFL_Montserrat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL_Montserrat.txt; sourceTree = "<group>"; };
+		CBDC51A1191038CC00C445B9 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		CBDC51A4191038CC00C445B9 /* OFL_Nunito.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL_Nunito.txt; sourceTree = "<group>"; };
+		CBDC51A6191038CC00C445B9 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		CBDC51A9191038CC00C445B9 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		CBDC51C719103A2B00C445B9 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		CBDC51C819103A2B00C445B9 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB304F601909AD980081F719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB304F691909AD980081F719 /* CoreGraphics.framework in Frameworks */,
+				CB304F6B1909AD980081F719 /* UIKit.framework in Frameworks */,
+				CB304F671909AD980081F719 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB304F841909AD990081F719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB304F891909AD990081F719 /* XCTest.framework in Frameworks */,
+				CB304F8B1909AD990081F719 /* UIKit.framework in Frameworks */,
+				CB304F8A1909AD990081F719 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB304F5A1909AD980081F719 = {
+			isa = PBXGroup;
+			children = (
+				CB304F6C1909AD980081F719 /* textStyles */,
+				CB304F8E1909AD990081F719 /* textStylesTests */,
+				CB304F651909AD980081F719 /* Frameworks */,
+				CB304F641909AD980081F719 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB304F641909AD980081F719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB304F631909AD980081F719 /* textStyles.app */,
+				CB304F871909AD990081F719 /* textStylesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB304F651909AD980081F719 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB304F661909AD980081F719 /* Foundation.framework */,
+				CB304F681909AD980081F719 /* CoreGraphics.framework */,
+				CB304F6A1909AD980081F719 /* UIKit.framework */,
+				CB304F881909AD990081F719 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB304F6C1909AD980081F719 /* textStyles */ = {
+			isa = PBXGroup;
+			children = (
+				CB304F751909AD980081F719 /* AppDelegate.h */,
+				CB304F761909AD980081F719 /* AppDelegate.m */,
+				CB304F781909AD990081F719 /* Main.storyboard */,
+				CB304F7E1909AD990081F719 /* MainViewController.h */,
+				CB304F7F1909AD990081F719 /* MainViewController.m */,
+				CB136D1C190EF9090046BD81 /* TextTheme.h */,
+				CB136D1D190EF9090046BD81 /* TextTheme.m */,
+				CBDC51C719103A2B00C445B9 /* Utils.h */,
+				CBDC51C819103A2B00C445B9 /* Utils.m */,
+				CB304F811909AD990081F719 /* Images.xcassets */,
+				CBDC5195191038CC00C445B9 /* Fonts */,
+				CB304F6D1909AD980081F719 /* Supporting Files */,
+			);
+			path = textStyles;
+			sourceTree = "<group>";
+		};
+		CB304F6D1909AD980081F719 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB304F6E1909AD980081F719 /* textStyles-Info.plist */,
+				CB304F6F1909AD980081F719 /* InfoPlist.strings */,
+				CB6744C419181D58003D0B4F /* Default-568h@2x.png */,
+				CB6744C519181D58003D0B4F /* Default-Landscape@2x~ipad.png */,
+				CB6744C619181D58003D0B4F /* Default-Landscape~ipad.png */,
+				CB6744C719181D58003D0B4F /* Default@2x.png */,
+				CB304F721909AD980081F719 /* main.m */,
+				CB304F741909AD980081F719 /* textStyles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB304F8E1909AD990081F719 /* textStylesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB304F941909AD990081F719 /* textStylesTests.m */,
+				CB304F8F1909AD990081F719 /* Supporting Files */,
+			);
+			path = textStylesTests;
+			sourceTree = "<group>";
+		};
+		CB304F8F1909AD990081F719 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB304F901909AD990081F719 /* textStylesTests-Info.plist */,
+				CB304F911909AD990081F719 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBDC5195191038CC00C445B9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC5196191038CC00C445B9 /* Arvo */,
+				CBDC519C191038CC00C445B9 /* Montserrat */,
+				CBDC51A0191038CC00C445B9 /* Nunito */,
+				CBDC51A5191038CC00C445B9 /* Roboto_Condensed */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CBDC5196191038CC00C445B9 /* Arvo */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC519A191038CC00C445B9 /* Arvo-Regular.ttf */,
+				CBDC519B191038CC00C445B9 /* OFL_Arvo.txt */,
+			);
+			path = Arvo;
+			sourceTree = "<group>";
+		};
+		CBDC519C191038CC00C445B9 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC519D191038CC00C445B9 /* Montserrat-Bold.ttf */,
+				CBDC519F191038CC00C445B9 /* OFL_Montserrat.txt */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		CBDC51A0191038CC00C445B9 /* Nunito */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC51A1191038CC00C445B9 /* Nunito-Bold.ttf */,
+				CBDC51A4191038CC00C445B9 /* OFL_Nunito.txt */,
+			);
+			path = Nunito;
+			sourceTree = "<group>";
+		};
+		CBDC51A5191038CC00C445B9 /* Roboto_Condensed */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC51A6191038CC00C445B9 /* LICENSE.txt */,
+				CBDC51A9191038CC00C445B9 /* RobotoCondensed-Italic.ttf */,
+			);
+			path = Roboto_Condensed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB304F621909AD980081F719 /* textStyles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB304F981909AD990081F719 /* Build configuration list for PBXNativeTarget "textStyles" */;
+			buildPhases = (
+				CB304F5F1909AD980081F719 /* Sources */,
+				CB304F601909AD980081F719 /* Frameworks */,
+				CB304F611909AD980081F719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = textStyles;
+			productName = textStyles;
+			productReference = CB304F631909AD980081F719 /* textStyles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB304F861909AD990081F719 /* textStylesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB304F9B1909AD990081F719 /* Build configuration list for PBXNativeTarget "textStylesTests" */;
+			buildPhases = (
+				CB304F831909AD990081F719 /* Sources */,
+				CB304F841909AD990081F719 /* Frameworks */,
+				CB304F851909AD990081F719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB304F8D1909AD990081F719 /* PBXTargetDependency */,
+			);
+			name = textStylesTests;
+			productName = textStylesTests;
+			productReference = CB304F871909AD990081F719 /* textStylesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB304F5B1909AD980081F719 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Manifest Digital";
+				TargetAttributes = {
+					CB304F621909AD980081F719 = {
+						DevelopmentTeam = K4XWZSVQ6Y;
+					};
+					CB304F861909AD990081F719 = {
+						TestTargetID = CB304F621909AD980081F719;
+					};
+				};
+			};
+			buildConfigurationList = CB304F5E1909AD980081F719 /* Build configuration list for PBXProject "textStyles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB304F5A1909AD980081F719;
+			productRefGroup = CB304F641909AD980081F719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB304F621909AD980081F719 /* textStyles */,
+				CB304F861909AD990081F719 /* textStylesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB304F611909AD980081F719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6744CA19181D58003D0B4F /* Default-Landscape~ipad.png in Resources */,
+				CB5A33761911653500C3F968 /* Main.storyboard in Resources */,
+				CBDC51BC191038CC00C445B9 /* OFL_Nunito.txt in Resources */,
+				CB304F821909AD990081F719 /* Images.xcassets in Resources */,
+				CBDC51C0191038CC00C445B9 /* RobotoCondensed-Italic.ttf in Resources */,
+				CBDC51B8191038CC00C445B9 /* OFL_Montserrat.txt in Resources */,
+				CB6744C819181D58003D0B4F /* Default-568h@2x.png in Resources */,
+				CBDC51B4191038CC00C445B9 /* Arvo-Regular.ttf in Resources */,
+				CB304F711909AD980081F719 /* InfoPlist.strings in Resources */,
+				CBDC51B6191038CC00C445B9 /* Montserrat-Bold.ttf in Resources */,
+				CBDC51B5191038CC00C445B9 /* OFL_Arvo.txt in Resources */,
+				CB6744C919181D58003D0B4F /* Default-Landscape@2x~ipad.png in Resources */,
+				CB6744CB19181D58003D0B4F /* Default@2x.png in Resources */,
+				CBDC51BD191038CC00C445B9 /* LICENSE.txt in Resources */,
+				CBDC51B9191038CC00C445B9 /* Nunito-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB304F851909AD990081F719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB304F931909AD990081F719 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB304F5F1909AD980081F719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB304F801909AD990081F719 /* MainViewController.m in Sources */,
+				CB304F771909AD980081F719 /* AppDelegate.m in Sources */,
+				CB136D1E190EF9090046BD81 /* TextTheme.m in Sources */,
+				CBDC51C919103A2B00C445B9 /* Utils.m in Sources */,
+				CB304F731909AD980081F719 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB304F831909AD990081F719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB304F951909AD990081F719 /* textStylesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB304F8D1909AD990081F719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB304F621909AD980081F719 /* textStyles */;
+			targetProxy = CB304F8C1909AD990081F719 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB304F6F1909AD980081F719 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB304F701909AD980081F719 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB304F781909AD990081F719 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB304F791909AD990081F719 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB304F911909AD990081F719 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB304F921909AD990081F719 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB304F961909AD990081F719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Trey Baugher (BXBYFMGXXT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Trey Baugher (BXBYFMGXXT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "C8789923-8899-42A0-8FBF-C012D8DCDD6B";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB304F971909AD990081F719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Trey Baugher (BXBYFMGXXT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Trey Baugher (BXBYFMGXXT)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "C8789923-8899-42A0-8FBF-C012D8DCDD6B";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB304F991909AD990081F719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Trey Baugher (BXBYFMGXXT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textStyles/textStyles-Prefix.pch";
+				INFOPLIST_FILE = "textStyles/textStyles-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C8789923-8899-42A0-8FBF-C012D8DCDD6B";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB304F9A1909AD990081F719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Trey Baugher (BXBYFMGXXT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textStyles/textStyles-Prefix.pch";
+				INFOPLIST_FILE = "textStyles/textStyles-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C8789923-8899-42A0-8FBF-C012D8DCDD6B";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB304F9C1909AD990081F719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/textStyles.app/textStyles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textStyles/textStyles-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "textStylesTests/textStylesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB304F9D1909AD990081F719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/textStyles.app/textStyles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textStyles/textStyles-Prefix.pch";
+				INFOPLIST_FILE = "textStylesTests/textStylesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB304F5E1909AD980081F719 /* Build configuration list for PBXProject "textStyles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB304F961909AD990081F719 /* Debug */,
+				CB304F971909AD990081F719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB304F981909AD990081F719 /* Build configuration list for PBXNativeTarget "textStyles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB304F991909AD990081F719 /* Debug */,
+				CB304F9A1909AD990081F719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB304F9B1909AD990081F719 /* Build configuration list for PBXNativeTarget "textStylesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB304F9C1909AD990081F719 /* Debug */,
+				CB304F9D1909AD990081F719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB304F5B1909AD980081F719 /* Project object */;
+}
